@@ -1,0 +1,36 @@
+body{
+    background-color: #3F3D56!important;
+}
+.login-container{
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imgLogin{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    width: 100%;
+}
+.imgLogin img{
+    width: 65%;
+    position: absolute;
+    top: 80px;
+    left: -20px;
+}
+
+
+.form{
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
